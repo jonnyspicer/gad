@@ -1,0 +1,21 @@
+<header>
+  <div class="mobile-header">
+    <div>
+      <a href="/" class="mobile-logo"><img src="/assets/img/logo_mobile.jpg"></a>
+    </div>
+    <div class="toggle">
+      <span>
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </div>
+  <nav class="desktop-nav">
+    {% for item in site.data.navigation %}
+    <a href="{{ item.link }}">
+      {{ item.name }}
+    </a>
+    {% endfor %}
+  </nav>
+</header>

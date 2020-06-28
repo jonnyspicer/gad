@@ -1,0 +1,10 @@
+- name: Our Aims
+  link: /aims
+- name: What You Can Do
+  link: /what-you-can-do
+- name: Resources
+  link: /resources
+- name: Events
+  link: /events
+- name: Contact
+  link: /contact
