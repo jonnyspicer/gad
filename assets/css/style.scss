@@ -4,34 +4,7 @@
 @import "general";
 @import "header";
 @import "footer";
-// @import "front";
+@import "front";
 // @import "posts";
 // @import "archives";
 // @import "prism";
-
-* {
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-}
-
-html {
-    height: 100vh;
-}
-
-div {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-}
-
-img {
-    max-width: 200px;
-    max-height: 200px;
-}
-
-a {
-    text-decoration: none;
-    color: #24b13b;
-}
