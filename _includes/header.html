@@ -1,7 +1,7 @@
 <header>
   <div class="mobile-header">
     <div>
-      <a href="/" class="mobile-logo"><img src="/assets/img/logo_mobile.jpg"></a>
+      <a href="/" class="mobile-logo"><img src="/assets/img/logo_mobile.jpg" alt="Guernsey Against Discrimination mobile logo"></a>
     </div>
     <div class="toggle">
       <span>
@@ -11,11 +11,41 @@
       </span>
     </div>
   </div>
-  <nav class="desktop-nav">
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}">
-      {{ item.name }}
-    </a>
-    {% endfor %}
-  </nav>
+  <div class="header-primary">
+    <div class="logo-wrapper">
+      <a href="/">
+        <img src="/assets/img/logo.png" alt="Guerns Against Discrimination logo">
+      </a>
+    </div>
+    <div class="hashtag-wrapper">
+      <h2>#WakeUpGuernsey</h2>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/guernsagainstdiscrimination" target="_blank" rel="noreferrer" class="icon-link" aria-label="Facebook"><i
+          class='fab fa-facebook'></i></a>
+      <a href="https://www.instagram.com/guernsagainstdiscrimination/" target="_blank" rel="noreferrer"
+        class="icon-link"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+      <a href="https://twitter.com/GuernsVSDiscrim" target="_blank" rel="noreferrer" class="icon-link"
+        aria-label="Twitter"><i
+          class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+  <div class="desktop-nav-wrapper">
+    <nav class="desktop-nav">
+      {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
+        {{ item.name }}
+      </a>
+      {% endfor %}
+      <div class="social-icons">
+        <a href="https://www.facebook.com/guernsagainstdiscrimination" target="_blank" rel="noreferrer"
+          class="icon-link" aria-label="Facebook"><i class='fab fa-facebook'></i></a>
+        <a href="https://www.instagram.com/guernsagainstdiscrimination/" target="_blank" rel="noreferrer"
+          class="icon-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/GuernsVSDiscrim" target="_blank" rel="noreferrer" class="icon-link"
+          aria-label="Twitter"><i
+            class="fab fa-twitter"></i></a>
+      </div>
+    </nav>
+  </div>
 </header>

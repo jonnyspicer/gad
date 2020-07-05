@@ -1,8 +1,10 @@
 $color_pink: #ef476f;
 $color_yellow: #ffd166;
 $color_green: #24b13b;
+$color_green_dark: #1C872E;
 $color_light_blue: #118ab2;
 $color_dark_blue: #073b4c;
+$color_orange: #c73e1d;
 $color_white:#fff;
 $color_black:#000;
 $color_grey_very_light: #eaeaea;
@@ -20,11 +22,6 @@ $breakpoint_menu: 768px;
 // $font-stack-copy: "Jost", Helvetica, sans-serif;
 
 $font: 'Roboto',sans-serif;
-$font-stack-header: $font;
-$font-stack-copy: $font;
-$font-stack-subheader: $font;
-
-* {
-    font-family: $font;
-    font-weight: normal;
-}
+$font-stack-header: 'Montserrat', sans-serif;
+$font-stack-copy: 'Roboto',sans-serif;
+$font-stack-subheader: 'Montserrat', sans-serif;
