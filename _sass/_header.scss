@@ -195,7 +195,7 @@ header {
         nav.desktop-nav {
             display: block;
             position: absolute;
-            height: 0;
+            max-height: 0;
             transition: max-height 0.5s;
 
             a {
