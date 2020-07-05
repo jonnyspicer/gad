@@ -203,6 +203,7 @@ header {
                 text-align: unset;
                 padding: 0 0 0 30px;
                 border-left: none;
+                border-bottom: solid 1px white;
                 display: block;
                 background-color: $color_white;
                 opacity: 0;
@@ -232,7 +233,6 @@ header {
                 a {
                     opacity: 1;
                     max-height: 50px;
-                    margin: -1px 0;
                 }
 
                 .social-icons {
