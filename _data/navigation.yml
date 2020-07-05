@@ -1,10 +1,12 @@
-- name: Our Aims
-  link: /aims
-- name: What You Can Do
-  link: /what-you-can-do
-- name: Resources
-  link: /resources
+- name: Home
+  link: /
+- name: Our Vision
+  link: /vision
 - name: Events
   link: /events
+- name: How Can I Help?
+  link: /how-can-i-help
+- name: Resources
+  link: /resources
 - name: Contact
   link: /contact
